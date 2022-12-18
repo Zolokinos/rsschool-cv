@@ -69,3 +69,22 @@ body {
     transition: .5s;
 
 }
+
+.main {
+
+}
+
+.section {
+
+}
+
+.footer {
+}
+
+.course-logo {
+    max-width: 100px;    
+}
+
+.footer-container {
+    float: right;
+}
