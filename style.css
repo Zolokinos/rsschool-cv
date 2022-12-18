@@ -1,1 +1,30 @@
+* {
+    box-sizing: border-box;
+}
 
+
+.nav-link::after {
+
+    content: "";
+    position: absolute;
+    left: 12px;
+    bottom: -5px;
+    width: calc(100% - 24px);
+    height: 2px;
+    background-color: #ff0000;
+    opacity: 0;
+    transition: .5s;
+
+}
+
+.nav-list {
+    list-style: none;
+}
+
+.header {
+    background-color: darkorange;
+}
+
+body {
+    margin: 0 auto;
+}
